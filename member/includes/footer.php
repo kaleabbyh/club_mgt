@@ -5,9 +5,8 @@
                 <h4>Pages</h4>
                 <ul>
                     <li><a href="#">register</a></li>
-                    <li><a href="#">my account</a></li>
-                    <li><a href="#">announcements</a></li>
-                    <li><a href="#">events</a></li>
+                    <li><a href="my_account.php">my account</a></li>
+                    
                 </ul>
             </div>
             <div class="col-sm-6 col-md-3">
@@ -30,18 +29,12 @@
                     Dont miss our latest updates.
                 </p>
 
-                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=M-devMedia', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" method="post">
-                    <!-- form begin -->
+                <form  method="post" >
                     <div class="input-group">
-                        <!-- input-group begin -->
                         <input type="text" class="form-control" name="email">
-
                         <input type="hidden" value="M-devMedia" name="uri" /><input type="hidden" name="loc" value="en_US" />
-
                         <span class="input-group-btn">
-
                             <input type="submit" value="subscribe" class="btn btn-default">
-
                         </span>
                     </div>
                 </form>

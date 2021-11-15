@@ -139,12 +139,15 @@ body {
  
 }
 .login-box{
-    width: 280px;
+    width: 400px;
     position: absolute;
+    border: 3px #286290 groove;
+    border-radius: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+    padding-bottom: 20px;
   }
 
 #content {

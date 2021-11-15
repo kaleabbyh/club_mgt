@@ -24,7 +24,7 @@ include("functions/functions.php");
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer">
-                <h3> CSE Club Management system</h3>
+                <h4> CSE Club Management system</h4>
             </div>
         </div>
     </div>

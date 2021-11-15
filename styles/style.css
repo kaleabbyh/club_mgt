@@ -48,8 +48,8 @@ body{
 }
 .navbar ul.nav > li > a{
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
+    
+    font-size: 11px;
 }
 .navbar ul.nav > li > a:hover{
     background: #e7e7e7;

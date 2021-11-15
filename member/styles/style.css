@@ -9,7 +9,7 @@ body {
 /* Top Styles */
 
 #top {
-  background: #43434d;
+  background: #768078;
 }
 #top .offer {
   color: #ffffff;
@@ -20,7 +20,7 @@ body {
 
 @media (max-width: 991px) {
   #top {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
   }
 }
@@ -28,7 +28,8 @@ body {
 /* Header Styles */
 
 .navbar {
-  background: #ffffff;
+  font-size: 20px;
+  background: #a5a5a5;
 }
 .navbar-collapse .right {
   float: right;
@@ -36,7 +37,7 @@ body {
 .navbar-brand {
   float: left;
   padding: 10px 15px;
-  font-size: 18px;
+  
   line-height: 20px;
   height: 70px;
 }
@@ -45,9 +46,9 @@ body {
   text-decoration: none;
 }
 .navbar ul.nav > li > a {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
+  
+ 
+  font-size: 11px;
 }
 .navbar ul.nav > li > a:hover {
   background: #e7e7e7;

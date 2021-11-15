@@ -23,9 +23,7 @@ include("includes/header.php");
                 <li>
                     My Account
                 </li>
-                <li>
-                    My Account
-                </li>
+                
             </ul>
         </div>
 

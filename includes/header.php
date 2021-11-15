@@ -37,6 +37,21 @@ include("functions/functions.php");
                         <li class="<?php if ($active == 'Home') echo "active"; ?>">
                             <a href="index.php">Home</a>
                         </li>
+                        <li class="<?php if ($active == 'Anouncements') echo "active"; ?>">
+                            <a href="#anouncement">Anouncements</a>
+                        </li>
+                        
+                        <li class="<?php if ($active == 'event') echo "active"; ?>">
+                            <a href="#hot">events</a>
+                        </li>
+
+                        <li class="<?php if ($active == 'my_account') echo "active"; ?>">
+                            <a href="member/my_account.php">my account</a>
+                        </li>
+                        <li class="<?php if ($active == 'Contact') echo "active"; ?>">
+                            <a href="member/contact.php">Contact Us</a>
+                        </li>
+
                         <li class="<?php if ($active == 'Account') echo "active"; ?>">
                             <?php
                             if (!isset($_SESSION['member_email'])) {
@@ -47,20 +62,7 @@ include("functions/functions.php");
                             }
                             ?>
                         </li>
-                        <li class="<?php if ($active == 'my_account') echo "active"; ?>">
-                            <a href="member/my_account.php">my account</a>
-                        </li>
-                        <li class="<?php if ($active == 'Contact') echo "active"; ?>">
-                            <a href="member/contact.php">Contact Us</a>
-                        </li>
-
-                        <li class="<?php if ($active == 'Anouncements') echo "active"; ?>">
-                            <a href="#anouncement">Anouncements</a>
-                        </li>
-                        
-                        <li class="<?php if ($active == 'event') echo "active"; ?>">
-                            <a href="#hot">events</a>
-                        </li>
+                       
                     </ul>
 
                 </div>

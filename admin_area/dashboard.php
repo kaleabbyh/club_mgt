@@ -137,17 +137,17 @@ if (!isset($_SESSION['admin_email'])) {
                 <div class="panel-body">
                     <div class="mb-md thumb-info">
                         <img src="admin_images/<?php echo $admin_image; ?>" alt="<?php echo $admin_image; ?>" class="rounded img-responsive"
-                        style="border-radius: 50%;  
-                               width: 100px;
-                               height: 100px;">
+                        style="border-radius: 10%;  
+                               width: 150px;
+                               height: 150px;">
                         
                     </div>
                     <div class="mb-md">
                         <div class="widget-content-expanded">
-                           <i class="fa fa-user"></i> <span> Email: </span> <?php echo $admin_name; ?> <br />
+                           <i class="fa fa-user"></i> <span> Name: </span> <?php echo $admin_name; ?> <br />
                             <i class="fa fa-user"></i> <span> Email: </span> <?php echo $admin_email; ?> <br />
                             <i class="fa fa-flag"></i> <span> Country: </span> <?php echo $admin_country; ?> <br />
-                            <i class="fa fa-envelope"></i> <span> Contact: </span> <?php echo $admin_contact; ?> <br />
+                            <i class="fa fa-phone"></i> <span> Contact: </span> <?php echo $admin_contact; ?> <br />
                         </div>
                         <hr class="dotted short">
 

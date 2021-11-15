@@ -15,7 +15,9 @@
                                 
                                     <center>
                                     
-                                        <img src='member_images/$member_image' class='img-responsive' >
+                                        <img src='member_images/$member_image' class='img-responsive'  style='border-radius: 10%;  
+                                        width: 200px;
+                                        height: 200px;'>
                                     
                                     </center>
                                     

@@ -16,10 +16,12 @@ if (!isset($_SESSION['admin_email'])) {
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <i class="fa fa-user"></i> <?php echo $admin_name;  ?> <b class="caret"></b>
+                    <img src="admin_images/<?php echo $admin_image; ?>" alt="<?php echo $admin_image; ?>" class="rounded img-responsive" style="border-radius: 50%;  
+                       width: 50px;
+                       height: 50px;">
                 </a>
                 <ul class="dropdown-menu">
-                    
+
                     <li>
                         <a href="index.php?view_member">
                             <i class="fa fa-fw fa-users"></i> members
@@ -59,7 +61,7 @@ if (!isset($_SESSION['admin_email'])) {
                         </li>
                     </ul>
                 </li>
-               
+
 
                 <li>
                     <a href="#" data-toggle="collapse" data-target="#slides">
@@ -106,7 +108,7 @@ if (!isset($_SESSION['admin_email'])) {
                     </ul>
                 </li>
 
-                
+
                 <li>
                     <a href="logout.php">
                         <i class="fa fa-fw fa-power-off"></i> Log Out

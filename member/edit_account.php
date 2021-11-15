@@ -1,3 +1,9 @@
+<?php 
+    session_start();
+    if(!isset($_SESSION['member_email'])){
+        echo "<script>window.open('member/member_login.php','_self')</script>";
+    }else{
+?>
 
 
 <?php
@@ -80,3 +86,4 @@ if (isset($_POST['update'])) {
 ?>
 
 
+<?php } ?>

@@ -1,3 +1,10 @@
+<?php 
+    session_start();
+    if(!isset($_SESSION['member_email'])){
+        echo "<script>window.open('member/member_login.php','_self')</script>";
+    }else{
+?>
+
 <center>
     <h2> Do You Realy Want To Delete Your Account ? </h3>   
     <form action="" method="post">        
@@ -23,3 +30,4 @@ if(isset($_POST['No'])){
     echo "<script>window.open('my_account.php','_self')</script>";   
 }
 ?>
+<?php } ?>

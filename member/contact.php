@@ -1,4 +1,11 @@
 <?php 
+    session_start();
+    if(!isset($_SESSION['member_email'])){
+        echo "<script>window.open('member/member_login.php','_self')</script>";
+    }else{
+?>
+
+<?php 
     
     $active='Contact';
     include("includes/header.php");
@@ -90,3 +97,5 @@
     <script src="js/bootstrap-337.min.js"></script>
 </body>
 </html>
+
+<?php } ?>

@@ -1,11 +1,8 @@
 <?php 
-    
-    //if(!isset($_SESSION['member_email'])){
-        
-       // echo "<script>window.open('member_login.php','_self')</script>";
-        
-   // }else{
-
+    session_start();
+    if(!isset($_SESSION['member_email'])){
+        echo "<script>window.open('member_login.php','_self')</script>";
+    }else{
 ?>
 
 
@@ -75,5 +72,5 @@ include("includes/footer.php");
 </body>
 
 </html>
-<?php //} 
+<?php } 
 ?>

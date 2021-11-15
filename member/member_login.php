@@ -31,9 +31,9 @@ include("functions/functions.php");
 
 
     <div class="login-box" >
-        <div class="row" style="margin: 0 30px 0 0; color: white;">
+        <div class="row" style="margin: 0 0 0 0; color: white;">
             <center>
-            <h3> <i><b>CSE Club Management system</b></i></h3>
+            <h3> <b>CSE Club</b></h3>
             </center>
         </div>
         <div class="container">
@@ -43,19 +43,15 @@ include("functions/functions.php");
             <div class="col-md-4">
                 <div class="login_box">
 
-                    <center>
-                        <h2> <b><i>Login</i></b> </h2>
-
-                    </center>
 
                     <form method="post">
                         <div class="form-group">
                             <label> Email </label>
-                            <input name="c_email" type="text" class="form-control" required>
+                            <input name="c_email" type="text" class="form-control" placeholder="email" required>
                         </div>
                         <div class="form-group">
                             <label> Password </label>
-                            <input name="c_pass" type="password" class="form-control" required>
+                            <input name="c_pass" type="password" class="form-control" placeholder="password" required>
                         </div>
                         <div class="text-center">
                             <button name="login" value="Login" class="btn btn-primary">
@@ -64,9 +60,9 @@ include("functions/functions.php");
                         </div>
                     </form>
                     <center>
-                        <a href="member_register.php">
+                        <!-- <a href="member_register.php">
                             <h4> Dont have account..? Register here </h4>
-                        </a>
+                        </a> -->
                     </center>
                 </div>
             </div>

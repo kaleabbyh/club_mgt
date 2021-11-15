@@ -85,7 +85,6 @@ include("functions/functions.php");
 
         if ($run_member) {
             $_SESSION['member_email'] = $member_email;
-            echo "<script>alert('You are Logged in')</script>";
             echo "<script>window.open('../index.php','_self')</script>";
         } else {
             echo "<script>alert('Your email or password is wrong')</script>";

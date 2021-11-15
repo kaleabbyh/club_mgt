@@ -44,7 +44,7 @@ if (isset($_POST['admin_login'])) {
     $count = mysqli_num_rows($run_admin);
     if ($count == 1) {
         $_SESSION['admin_email'] = $admin_email;
-        echo "<script>alert('successfully loged in')</script>";
+
         echo "<script>window.open('index.php?dashboard','_self')</script>";
     } else {
         echo "<script>alert('Email or Password is Wrong !')</script>";

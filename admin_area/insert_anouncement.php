@@ -29,7 +29,7 @@
 
                         <div class="text-center">
                             <button type="submit" name="add" class="btn btn-primary">
-                                add event
+                                add anouncement
                             </button>
                         </div>
                     </form>

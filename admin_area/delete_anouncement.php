@@ -14,7 +14,7 @@
         
         $delete_anouncement_id = $_GET['delete_anouncement'];
         
-        $delete_event = "delete from anouncements where anouncement_id='$delete_anouncement_id'";
+        $delete_anouncement = "delete from anouncements where anouncement_id='$delete_anouncement_id'";
         
         $run_delete = mysqli_query($con,$delete_anouncement);
         

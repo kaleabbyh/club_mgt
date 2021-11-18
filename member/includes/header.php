@@ -60,4 +60,4 @@ include("functions/functions.php");
                 </div>
             </div>
         </div>
-    </div><
+    </div>

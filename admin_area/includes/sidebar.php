@@ -16,9 +16,8 @@ if (!isset($_SESSION['admin_email'])) {
         <ul class="nav navbar-right top-nav">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <img src="admin_images/<?php echo $admin_image; ?>" alt="<?php echo $admin_image; ?>" class="rounded img-responsive" style="border-radius: 50%;  
-                       width: 50px;
-                       height: 50px;">
+                   <i class="fa fa-user" style="padding-right:10px;"></i>
+                    
                 </a>
                 <ul class="dropdown-menu">
 
